@@ -1,0 +1,58 @@
+body{
+    /*
+    font-family: 'Lobster', cursive;
+    */
+    font-family: 'Cabin', sans-serif;
+    /*
+    Colores
+    #373a3c
+    #dddddd
+    #000 o var(--black)
+    #fff o var(--white)
+    #dc3545 o var(--danger)
+    */
+}
+.ricomida, footer p,span{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.carousel-indicators{
+    top:12rem
+}
+.carousel-indicators li{
+    width:1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color:grey;
+}
+hr{
+    background-color:black;
+}
+#contacto{
+    background-color: #DC3545;
+    color:white;
+    text-align: center;
+    padding: 5rem;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.btn{
+    width:10rem;
+   
+    font-size:0.9rem;
+}
+#contacto button{
+    border-color: white;
+}
+@media only screen and (max-width:768px){
+    #carrusel{
+        display:none; /* para desaparecer cuando se haga pequeño (cuando sea menor a 768px*/
+    }
+    
+}
+
+
+
